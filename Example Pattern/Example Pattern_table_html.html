@@ -1,0 +1,823 @@
+<h1 id="example-pattern">Example Pattern</h1>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 20%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+<col style="width: 19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>ROW #</strong></th>
+<th><strong>PanelA </strong></th>
+<th><strong>PanelB </strong></th>
+<th><strong>PanelA </strong></th>
+<th><strong>PanelC </strong></th>
+<th><strong>PanelA</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>[k2 p2] k2</td>
+<td>k1 p2 k2 p1 k1</td>
+<td>[k2 p2] k2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>2</strong></td>
+<td>p2 [k2 p2]</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>p2 [k2 p2]</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>[p2 k2] p2</td>
+<td>k1 p2 (3/3 front) k3 p2 k1</td>
+<td>[p2 k2] p2</td>
+<td>p2 (2/1 front) [k2 p2]</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>4</strong></td>
+<td>[k2 p2] k2</td>
+<td>k1 p2 k2 p1 k1</td>
+<td>[k2 p2] k2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>5</strong></td>
+<td>p2 [k2 p2]</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>p2 [k2 p2]</td>
+<td>p2 [k2 p2]</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>6</strong></td>
+<td>[p2 k2] p2</td>
+<td>k1 p1 (3/3 front) k3 p2 k1</td>
+<td>[p2 k2] p2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>7</strong></td>
+<td>[k2 p2] k2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[k2 p2] k2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>8</strong></td>
+<td>p2 [k2 p2]</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>p2 [k2 p2]</td>
+<td>p1 (2/1 front) k1 p2 k3 p1</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>9</strong></td>
+<td>[p2 k2] p2</td>
+<td>k1 p2 k2 p1 k1</td>
+<td>[p2 k2] p2</td>
+<td>p2 (2/1 front) [k2 p2]</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>10</strong></td>
+<td>[k2 p2] k2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[k2 p2] k2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>11</strong></td>
+<td>p2 [k2 p2]</td>
+<td>k1 p2 (3/3 front) k3 p2 k1</td>
+<td>p2 [k2 p2]</td>
+<td>p2 [k2 p2]</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>12</strong></td>
+<td>[p2 k2] p2</td>
+<td>k1 p2 k2 p1 k1</td>
+<td>[p2 k2] p2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>13</strong></td>
+<td>[k2 p2] k2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[k2 p2] k2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>14</strong></td>
+<td>p2 [k2 p2]</td>
+<td>k1 p1 (3/3 front) k3 p2 k1</td>
+<td>p2 [k2 p2]</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>15</strong></td>
+<td>[p2 k2] p2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[p2 k2] p2</td>
+<td>p2 (2/1 front) [k2 p2]</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>16</strong></td>
+<td>[k2 p2] k2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[k2 p2] k2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>17</strong></td>
+<td>p2 [k2 p2]</td>
+<td>k1 p2 k2 p1 k1</td>
+<td>p2 [k2 p2]</td>
+<td>p2 [k2 p2] (2/1 front)</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>18</strong></td>
+<td>[p2 k2] p2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[p2 k2] p2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>19</strong></td>
+<td>[k2 p2] k2</td>
+<td>k1 p2 (3/3 front) k3 p2 k1</td>
+<td>[k2 p2] k2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>20</strong></td>
+<td>p2 [k2 p2]</td>
+<td>k1 p2 k2 p1 k1</td>
+<td>p2 [k2 p2]</td>
+<td>p2 (2/1 front) [k2 p2]</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>21</strong></td>
+<td>[p2 k2] p2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[p2 k2] p2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>22</strong></td>
+<td>[k2 p2] k2</td>
+<td>k1 p1 (3/3 front) k3 p2 k1</td>
+<td>[k2 p2] k2</td>
+<td>p2 [k2 p2]</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>23</strong></td>
+<td>p2 [k2 p2]</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>p2 [k2 p2]</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>24</strong></td>
+<td>[p2 k2] p2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[p2 k2] p2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>25</strong></td>
+<td>[k2 p2] k2</td>
+<td>k1 p2 k2 p1 k1</td>
+<td>[k2 p2] k2</td>
+<td>p1 (2/1 front) k1 p2 k3 p1</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>26</strong></td>
+<td>p2 [k2 p2]</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>p2 [k2 p2]</td>
+<td>p2 (2/1 front) [k2 p2]</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>27</strong></td>
+<td>[p2 k2] p2</td>
+<td>k1 p2 (3/3 front) k3 p2 k1</td>
+<td>[p2 k2] p2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>28</strong></td>
+<td>[k2 p2] k2</td>
+<td>k1 p2 k2 p1 k1</td>
+<td>[k2 p2] k2</td>
+<td>p2 [k2 p2]</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>29</strong></td>
+<td>p2 [k2 p2]</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>p2 [k2 p2]</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>30</strong></td>
+<td>[p2 k2] p2</td>
+<td>k1 p1 (3/3 front) k3 p2 k1</td>
+<td>[p2 k2] p2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>31</strong></td>
+<td>[k2 p2] k2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[k2 p2] k2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>32</strong></td>
+<td>p2 [k2 p2]</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>p2 [k2 p2]</td>
+<td>p2 (2/1 front) [k2 p2]</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>33</strong></td>
+<td>[p2 k2] p2</td>
+<td>k1 p2 k2 p1 k1</td>
+<td>[p2 k2] p2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>34</strong></td>
+<td>[k2 p2] k2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[k2 p2] k2</td>
+<td>p2 [k2 p2] (2/1 front)</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>35</strong></td>
+<td>p2 [k2 p2]</td>
+<td>k1 p2 (3/3 front) k3 p2 k1</td>
+<td>p2 [k2 p2]</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>36</strong></td>
+<td>[p2 k2] p2</td>
+<td>k1 p2 k2 p1 k1</td>
+<td>[p2 k2] p2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>37</strong></td>
+<td>[k2 p2] k2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[k2 p2] k2</td>
+<td>p2 (2/1 front) [k2 p2]</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>38</strong></td>
+<td>p2 [k2 p2]</td>
+<td>k1 p1 (3/3 front) k3 p2 k1</td>
+<td>p2 [k2 p2]</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>39</strong></td>
+<td>[p2 k2] p2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[p2 k2] p2</td>
+<td>p2 [k2 p2]</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>40</strong></td>
+<td>[k2 p2] k2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[k2 p2] k2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>41</strong></td>
+<td>p2 [k2 p2]</td>
+<td>k1 p2 k2 p1 k1</td>
+<td>p2 [k2 p2]</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>42</strong></td>
+<td>[p2 k2] p2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[p2 k2] p2</td>
+<td>p1 (2/1 front) k1 p2 k3 p1</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>43</strong></td>
+<td>[k2 p2] k2</td>
+<td>k1 p2 (3/3 front) k3 p2 k1</td>
+<td>[k2 p2] k2</td>
+<td>p2 (2/1 front) [k2 p2]</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>44</strong></td>
+<td>p2 [k2 p2]</td>
+<td>k1 p2 k2 p1 k1</td>
+<td>p2 [k2 p2]</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>45</strong></td>
+<td>[p2 k2] p2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[p2 k2] p2</td>
+<td>p2 [k2 p2]</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>46</strong></td>
+<td>[k2 p2] k2</td>
+<td>k1 p1 (3/3 front) k3 p2 k1</td>
+<td>[k2 p2] k2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>47</strong></td>
+<td>p2 [k2 p2]</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>p2 [k2 p2]</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>48</strong></td>
+<td>[p2 k2] p2</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>[p2 k2] p2</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>[p2 k2] p2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>49</strong></td>
+<td>[k2 p2] k2</td>
+<td>k1 p2 k2 p1 k1</td>
+<td>[k2 p2] k2</td>
+<td>p2 (2/1 front) [k2 p2]</td>
+<td>[k2 p2] k2</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+<tr class="odd">
+<td><strong>50</strong></td>
+<td>p2 [k2 p2]</td>
+<td>p1 k1 p2 k3 p1</td>
+<td>p2 [k2 p2]</td>
+<td>k1 p2 (3/3 back) k3 p2 k1</td>
+<td>p2 [k2 p2]</td>
+</tr>
+<tr class="even">
+<td>——</td>
+<td>———————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+<td>——————</td>
+</tr>
+</tbody>
+</table>
